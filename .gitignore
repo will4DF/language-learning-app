@@ -1,0 +1,15 @@
+# --- 🔒 Secrets ---
+.env
+firebase_key.json
+
+# --- 🧠 Python virtual environments ---
+venv/
+env/
+__pycache__/
+
+# --- 💻 macOS and system files ---
+.DS_Store
+
+# --- 🧰 IDE / Editor configs ---
+.vscode/
+.idea/

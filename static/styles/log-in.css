@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela&family=Varela+Round&display=swap');
+
+main {
+    display: flex;
+    justify-content: center;   /* centers horizontally */
+    align-items: center;       /* centers vertically */
+    min-height: 75vh;       /* makes main fill the full screen height */
+}
+
+body {
+    margin: 0;
+    font-family: "Varela Round", sans-serif;
+    background-color: rgba(211, 211, 211, 0.2);
+}
+
+nav {
+    display: flex;
+    padding: 10px;
+}
+
+nav h2 {
+    font-family: "Varela", sans-serif;
+}
+
+nav img {
+    width: 50px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: #D4F0F5;
+    box-shadow: 1px 1px 15px lightgray;
+}
+
+input {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    width: 200px;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+::placeholder {
+    color: grey;
+    opacity: .4;
+}
+
+.btn {
+    background-color: #659FA8;
+    color: white;
+    border-radius: 50px;
+    width:6rem;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    font-weight: 600;
+}
+.btnscont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn:hover {
+    opacity: .9;
+}
+
+p {
+    font-size: 15px;
+}
+a {
+    color: darkblue;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+}

@@ -1,0 +1,14 @@
+Logout
+🧠 English Level Checker
+Analyze
+{% if result %}
+Your Level: {{ result.level }}
+	•	{% for s in result.suggestions %}
+	•	{{ s }}
+	•	{% endfor %}
+{% endif %} {% if results %}
+📜 Your Past Analyses
+	•	{% for r in results %}
+	•	{{ r.level }} — hobbies: {{ r.hobbies }}
+	•	{% endfor %}
+{% endif %}
